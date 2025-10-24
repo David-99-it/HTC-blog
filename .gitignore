@@ -1,0 +1,29 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+
+# Database
+*.sqlite3
+
+# Media and static files (if not managed by a separate service)
+media/
+static_collected/
+
+# Sensitive configuration
+.env
+local_settings.py
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
